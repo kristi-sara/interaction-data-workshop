@@ -92,11 +92,11 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-Join Jorrit Poelen and Katja Seltmann for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>."
+Join Jorrit Poelen and Katja Seltmann for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>." This workshop is facilitated by <a href="https://idigbio.org">Integrated Digitized Biocollections (iDigBio)</a>. For more information see <a href="https://www.idigbio.org/content/practical-exploration-biotic-interaction-data-management-and-information-retrieval-through">iDigBio's workshop wiki</a>.
 
 During this two-hour long, participatory workshop collection managers, researchers, or data providers will use GloBI for data management and information retrieval. Our group exploration into the data will cover the data origins and data integration process and data products.
 
-This workshop is open to anyone interested in biotic or species interaction data even if you are presently not using GloBI. We will highlight data from the Terrestrial Parasite Tracker project, but the methods are available for anyone interested in biotic interactions (see more at https://www.globalbioticinteractions.org/sources).
+This workshop is open to anyone interested in biotic or species interaction data even if you are presently not using GloBI. We will highlight data from the Terrestrial Parasite Tracker project, but the methods are available for anyone interested in biotic interactions (see more at <a href="https://www.globalbioticinteractions.org/sources">https://www.globalbioticinteractions.org/sources</a>).
 
 The proposed outcome of this workshop is a reusable Carpentries lesson and improved documentation on methods to integrate and access biotic interaction data. We will work together through a series of exploratory data exercises. No programming experience is required, and you will use your own device to download data and create Google Sheets. Everyone will contribute during this workshop. Bring snacks! :)
 
