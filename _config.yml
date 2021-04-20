@@ -19,6 +19,8 @@
 # pilot_lesson_site, pilot_pre_survey, and pilot_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
 carpentry: "dc"
+life_cycle: "alpha"
+
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -47,17 +49,7 @@ flavor: "r"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Access and Review Species Interaction Data"
-
-episode_order:
-  - 01-intro
-  - 02-data
-  - 13-ixodes-whole-dataset
-  - 04-ixodes-point-and-click
-  - 05-working-with-data-sources.md
-  - 06-reviewing-taxonomic-names
-  - 07-reviewing-interaction-records
-  - 08-closing
+title: "Species Interaction Data Workshop"
 
 #------------------------------------------------------------
 # Pilot workshop settings (only relevant for lesson pilots).
@@ -78,7 +70,7 @@ episode_order:
 #------------------------------------------------------------
 
 # What kind of thing is this ("workshop" or "lesson")?
-kind: "workshop"
+kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
