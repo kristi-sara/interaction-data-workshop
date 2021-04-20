@@ -49,6 +49,16 @@ flavor: "r"
 # https://github.com/carpentries/workshop-template#creating-extra-pages
 title: "Access and Review Species Interaction Data"
 
+episode_order:
+  - 01-intro
+  - 02-data
+  - 13-ixodes-whole-dataset
+  - 04-ixodes-point-and-click
+  - 05-working-with-data-sources.md
+  - 06-reviewing-taxonomic-names
+  - 07-reviewing-interaction-records
+  - 08-closing
+
 #------------------------------------------------------------
 # Pilot workshop settings (only relevant for lesson pilots).
 #
