@@ -307,9 +307,6 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 <hr/>
 {% endif %}
 
-<hr/>
-
-
 {% comment %}
 SCHEDULE
 
