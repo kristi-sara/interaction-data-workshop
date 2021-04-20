@@ -1,5 +1,5 @@
 ---
-title: "Why use a Cluster?"
+title: "Why use interaction data?"
 teaching: 15
 exercises: 5
 questions:
@@ -67,10 +67,6 @@ problems in parallel**.
 
 Today, people coding or analysing data typically work with laptops.
 
-{% include figure.html url="" max-width="20%"
-   file="/fig/200px-laptop-openclipartorg-aoguerrero.svg"
-   alt="A standard laptop" caption="" %}
-
 Let's dissect what resources programs running on a laptop require:
 
 * the keyboard and/or touchpad is used to tell the computer what to do
@@ -81,9 +77,6 @@ Let's dissect what resources programs running on a laptop require:
 
 Schematically, this can be reduced to the following:
 
-{% include figure.html url="" max-width="30%"
-   file="/fig/Simple_Von_Neumann_Architecture.svg"
-   alt="Schematic of how a computer works" caption="" %}
 
 ## When tasks take too long
 
@@ -97,10 +90,6 @@ the order of (*v* log *v*) time, where *v* (vertices) represents the number of
 intersections in your map. Instead of doing this yourself, you use a website,
 which in turn runs on a server, that is almost definitely not in the same room
 as you are.
-
-{% include figure.html url="" max-width="20%"
-   file="/fig/servers-openclipartorg-ericlemerdy.svg"
-   alt="A rack half full with servers" caption="" %}
 
 Note here, that a server is mostly a noisy computer mounted into a rack cabinet
 which in turn resides in a data center. The internet made it possible that
@@ -122,10 +111,6 @@ which people typically call 'a server'.
 If the computational task or analysis to complete is daunting for a single
 server, larger agglomerations of servers are used. These go by the name of
 "clusters" or "super computers".
-
-{% include figure.html url="" max-width="20%"
-   file="/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg"
-   alt="A rack with servers" caption="" %}
 
 The methodology of providing the input data, configuring the program options,
 and retrieving the results is quite different to using a plain laptop.
