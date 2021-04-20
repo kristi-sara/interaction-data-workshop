@@ -17,6 +17,9 @@ keypoints:
   interface called Bash."
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/rJEYO45zTVK5KRQ6Ql20yg/badge)](https://hackmd.io/rJEYO45zTVK5KRQ6Ql20yg)
+
+
 Frequently, research problems that use computing can outgrow the capabilities
 of the desktop or laptop computer where they started:
 
