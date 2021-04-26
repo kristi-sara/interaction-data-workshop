@@ -34,7 +34,7 @@ One of the first things we might want to do is trim the dataset to only those ta
 
 > sh Globi_Ixodes_data.sh
 
-![shell code image](https://github.com/seltmann/interaction-data-workshop/blob/main/photos/shell.png)
+![shell code image](shell.png)
 
 Now lets compare the new datasets.How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
 > wc -l Ixodes_data.csv
