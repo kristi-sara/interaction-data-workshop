@@ -47,12 +47,12 @@ Now lets compare the new datasets.How many records are in the trimmed GloBI data
 Load trimmed dataset into R using R-studio. We will start by stepping through some R code and discuss the results. The [R code](https://github.com/seltmann/interaction-data-workshop) we are using can be downloaded to follow along or you can see an [html preview](https://htmlpreview.github.io/?https://github.com/seltmann/globi-workshop-2021/blob/main/code/globi-example.html) of the code.
 
 
+
+
 ### Import into a sqlite database
 ---------------------------------
 
-Databases are a great way to manage large datasets and handle data filtering, sorting and grouping. Sqlite is commonly used with R as it is easily transferable with the R code. We are not going to learn sqlite today, but there are some great Carpentries tutorials to get you started. 
-
-> [Introduction to sqlite](https://swcarpentry.github.io/sql-novice-survey/)
+Databases are a great way to manage large datasets and handle data filtering, sorting and grouping. Sqlite is commonly used with R as it is easily transferable with the R code. We are not going to learn sqlite today, but there are some great Carpentries tutorials to get you started, including the [Introduction to sqlite](https://swcarpentry.github.io/sql-novice-survey/).
 
 Let's step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
 
