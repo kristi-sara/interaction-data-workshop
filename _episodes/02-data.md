@@ -1,7 +1,7 @@
 ---
 title: "Getting Interaction Data"
 teaching: 15
-exercises: 5
+exercises: 10
 questions:
 - "Where can I download interaction data?"
 - "What formats are the data available?"
@@ -17,18 +17,26 @@ keypoints:
 ### Goals
 -----
 
+<img src="https://www.globalbioticinteractions.org/assets/globi.svg" height="100px" align="left"  />
 Let's get oriented with the interaction data found on GloBI.
 
 ### Where to find data
 -----
 
 Navigate to the https://www.globalbioticinteractions.org/data page.
-![GloBI Data Page](/fig/interaction-data.png)
 
 
 ### What is what?
 -----
 
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/interaction-data.png" height="300" align="center"  />
+
+*stable* versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590)GloBI data publication.
+*snapshot* are the most recent versions. Thus, this could change daily! Great for exploration and preliminary analysis.
+
+### Data publication
+----
+For research or other data intensive project, it is suggested to use GloBI’s stable versioned integrated data published via [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) or create a new data publication that contains the data you are using.
 
 
 ### Other ways of accessing GloBI data
