@@ -29,7 +29,7 @@ Navigate to the https://www.globalbioticinteractions.org/data page.
 ### What is what?
 -----
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/interaction-data.png" height="300" align="center"  />
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/interaction-data.png" height="400" align="middle"  />
 
 *stable* versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590)GloBI data publication.
 *snapshot* are the most recent versions. Thus, this could change daily! Great for exploration and preliminary analysis.
