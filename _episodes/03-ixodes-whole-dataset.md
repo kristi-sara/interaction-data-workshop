@@ -16,7 +16,6 @@ keypoints:
 
 ---
 
-<img src="https://www.globalbioticinteractions.org/assets/globi.svg" height="100px" align="left"  />
 
 ### Goals
 -----
@@ -102,3 +101,6 @@ SELECT interactionTypeName, count(interactionTypeName) FROM interactions group b
 
 .exit
 ~~~
+
+---------------------------------
+<img src="https://www.globalbioticinteractions.org/assets/globi.svg" height="100px" align="left"  />
