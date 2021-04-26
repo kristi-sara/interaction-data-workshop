@@ -28,7 +28,7 @@ Navigate to the [GloBI Data Page](https://www.globalbioticinteractions.org/data)
 ### What is what?
 -----
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/interaction-data.png" height=1000" align="middle"  />
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/interaction-data.png" height="1000" align="middle"  />
 
 **stable** versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) GloBI data publication.
 
