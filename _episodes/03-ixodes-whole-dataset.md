@@ -1,7 +1,7 @@
 ---
 title: "Working with the Whole Dataset"
-teaching: 25
-exercises: 5
+teaching: 10
+exercises: 10
 questions:
 - "How can I get started with the whole interaction dataset?"
 - "Is this the only way to manage the interaction dataset?"

@@ -1,7 +1,7 @@
 ---
 title: "Getting Interaction Data"
-teaching: 15
-exercises: 10
+teaching: 5
+exercises: 0
 questions:
 - "Where can I download interaction data?"
 - "What formats are the data available?"
