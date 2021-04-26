@@ -23,7 +23,7 @@ Let's get oriented with the interaction data found on GloBI.
 -----
 
 Navigate to the https://www.globalbioticinteractions.org/data page.
-![GloBI Data Page](/photos/data.png)
+![GloBI Data Page](/fig/interaction-data.png)
 
 
 ### What is what?
