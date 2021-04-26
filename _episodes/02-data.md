@@ -3,21 +3,36 @@ title: "Getting Interaction Data"
 teaching: 15
 exercises: 5
 questions:
-- "Question 1"
-- "Question 2"
+- "Where can I download interaction data?"
+- "What formats are the data available?"
 objectives:
-- "Objective 1"
-- "Objective 2"
+- "Understand the available ways to get interaction data"
+- "Understand the columns of the downloaded data"
 keypoints:
-- "key point 1"
-- "key point 2"
+- "GloBI has interaction data that can be accessed as a full dataset"
+- "Better to use the full dataset than the APIs"
 ---
 
-orientation to data product
-overview of GloBI data products here (e.g., point-and-click)
 
-1 - Navigate to the https://www.globalbioticinteractions.org/data page. What ways exist to get the data and what are the differences?
+### Goals
+-----
+
+Let's get oriented with the interaction data found on GloBI.
+
+### Where to find data
+-----
+
+Navigate to the https://www.globalbioticinteractions.org/data page.
 ![GloBI Data Page](/photos/data.png)
 
-2 - How many records are in the GloBI dataset (interactions.csv-snapshot version). Its a lot!
-> wc -l interactions.csv
+
+### What is what?
+-----
+
+
+
+### Other ways of accessing GloBI data
+-----
+
+Exploratory, interactive queries can be executed through SPARQL and Cypher endpoints, GloBI Search/Browse pages, or by using the REST-y GloBI Web API. For those that use R, rglobi is available to explore interaction data. rglobi can also be used to execute Cypher queries. However, it is best to consider these as methods for exploring data rather than data access points. **If you are doing research, download the full dataset and create a version of it**.
+

@@ -71,10 +71,14 @@ wc -l Ixodes_data.csv
 wc -l Ixodes_data_unique.csv
 ~~~
 
+
 ### Let's do something in R
 ---------------------------------
 
 Load trimmed dataset into R using R-studio. We will start by stepping through some R code and discuss the results. The [R code](https://github.com/seltmann/interaction-data-workshop) we are using can be downloaded to follow along or you can see an [html preview](https://htmlpreview.github.io/?https://github.com/seltmann/globi-workshop-2021/blob/main/code/globi-example.html) of the code.
+
+### Important columns in the dataset
+-----
 
 
 
