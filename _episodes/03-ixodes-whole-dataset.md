@@ -19,7 +19,7 @@ keypoints:
 ### Goals
 -----
 
-The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using Shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to Shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
+The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using Shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to Shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
 
 
 ### Find all of the records in the dataset based on a taxon name
@@ -30,13 +30,13 @@ We are interested in finding all of the records in the interactions.csv dataset 
 1 - How many records are in the GloBI dataset. It is a lot!
 > wc -l interactions.csv
 
-2 - One of the first things we might want to do is trim the dataset to only those taxa we are interested in analysing. In this case, we will look for all *Ixodes* records. Extract and make a file of only the Ixodes records using Globi_Ixodes_Data.sh script. This will help reduce the size of the dataset so we can use R for our analysis. The shell script will take ~ 4 minutes and 12 seconds to complete!
-
-> [shell code](https://github.com/seltmann/interaction-data-workshop)
+2 - One of the first things we might want to do is trim the dataset to only those taxa we are interested in analysing. In this case, we will look for all *Ixodes* records. To do so, we will use a simple [shell script](https://github.com/seltmann/interaction-data-workshop), extract all of the rows that contain the word *Ixodes* and create a new file file. This process will help reduce the size of the dataset so we can use R for our analysis. The shell script will take ~ 4 minutes and 12 seconds to complete!
 
 > sh Globi_Ixodes_data.sh
 
-3  - How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
+![shell code image][https://github.com/seltmann/interaction-data-workshop/blob/main/photos/shell.png]
+
+Now lets compare the new datasets.How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
 > wc -l Ixodes_data.csv
 
 > wc -l Ixodes_data_unique.csv
@@ -45,6 +45,8 @@ We are interested in finding all of the records in the interactions.csv dataset 
 ---------------------------------
 
 Load trimmed dataset into R using R-studio. We will start by stepping through some R code and discuss the results. The [R code](https://github.com/seltmann/interaction-data-workshop) we are using can be downloaded to follow along or you can see an [html preview](https://htmlpreview.github.io/?https://github.com/seltmann/globi-workshop-2021/blob/main/code/globi-example.html) of the code.
+
+
 
 
 ### Import into a sqlite database
