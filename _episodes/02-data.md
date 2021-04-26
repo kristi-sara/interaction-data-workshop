@@ -17,13 +17,12 @@ keypoints:
 ### Goals
 -----
 
-<img src="https://www.globalbioticinteractions.org/assets/globi.svg" height="100px" align="left"  />
 Let's get oriented with the interaction data found on GloBI.
 
 ### Where to find data
 -----
 
-Navigate to the https://www.globalbioticinteractions.org/data page.
+Navigate to the [GloBI Data Page](https://www.globalbioticinteractions.org/data) page.
 
 
 ### What is what?
