@@ -56,9 +56,12 @@ cat ../Data/*unique.tsv >> ../Data/all_data.txt
 ~~~
 
 Now lets compare the new datasets.How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
+
+~~~
 > wc -l Ixodes_data.csv
 
 > wc -l Ixodes_data_unique.csv
+~~~
 
 ### Let's do something in R
 ---------------------------------
@@ -75,6 +78,7 @@ Databases are a great way to manage large datasets and handle data filtering, so
 
 Let's step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
 
+~~~
 > sqlite3 globi.db
 
 > .mode csv
@@ -88,4 +92,4 @@ Let's step through a few commands to see how easy it is to take a CSV file and c
 > SELECT interactionTypeName, count(interactionTypeName) FROM interactions group by interactionTypeName;
 
 > .exit
-
+~~~
