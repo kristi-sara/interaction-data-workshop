@@ -34,6 +34,8 @@ One of the first things we might want to do is trim the dataset to only those ta
 
 > sh Globi_Ixodes_data.sh
 
+When we examine the code in the script we see that it is using grep, which is "a Unix command used to search files for the occurrence of a string of characters that matches a specified pattern". Grep matches on the row and does not specify which column *Ixodes* is found. We then sort the records to look for only exact, unique versions of the records.
+
 ~~~
 echo Creating headers
 head -1 ../data/interactions.csv > ../data/Ixodes_data.csv
@@ -45,6 +47,12 @@ wc -l ../data/Ixodes_data.csv
 echo Sorting unique records
 sort -r ../data/Ixodes_data.csv | uniq > ../data/Ixodes_data_unique.csv
 wc -l ../data/Ixodes_data_unique.csv
+~~~
+
+If you want to find several taxa and combine the datasets, you could create files from multiple taxa and combine the output together into a single dataset using **cat**. An example of this can be found [here](https://github.com/lee-michellej/globi_tritrophic_networks/blob/master/Code/Globi_bee_data.sh). This example takes all files of the files in the Data folder that contanin the pattern **unique.tsv** and creates a new file called *all_data.txt**._
+
+~~~
+cat ../Data/*unique.tsv >> ../Data/all_data.txt
 ~~~
 
 Now lets compare the new datasets.How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
