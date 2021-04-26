@@ -28,11 +28,16 @@ The entire or whole interaction dataset on GloBI consists of over 6 million inte
 We are interested in finding all of the records in the interactions.csv dataset that deal with *Ixodes* and we are interested in reducing the size of the data so it is easier to manage. One quick way to do this is via the Shell.
 
 How many records are in the GloBI dataset. It is a lot!
-> wc -l interactions.csv
+
+~~~
+wc -l interactions.csv
+~~~
 
 One of the first things we might want to do is trim the dataset to only those taxa we are interested in analysing. In this case, we will look for all *Ixodes* records. To do so, we will use a simple [shell script](https://github.com/seltmann/interaction-data-workshop), extract all of the rows that contain the word *Ixodes* and create a new file file. This process will help reduce the size of the dataset so we can use R for our analysis. The shell script will take ~ 4 minutes and 12 seconds to complete!
 
-> sh Globi_Ixodes_data.sh
+~~~
+sh Globi_Ixodes_data.sh
+~~~
 
 When we examine the code in the script we see that it is using grep, which is "a Unix command used to search files for the occurrence of a string of characters that matches a specified pattern". Grep matches on the row and does not specify which column *Ixodes* is found. We then sort the records to look for only exact, unique versions of the records.
 
@@ -58,9 +63,9 @@ cat ../Data/*unique.tsv >> ../Data/all_data.txt
 Now lets compare the new datasets.How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
 
 ~~~
-> wc -l Ixodes_data.csv
+wc -l Ixodes_data.csv
 
-> wc -l Ixodes_data_unique.csv
+wc -l Ixodes_data_unique.csv
 ~~~
 
 ### Let's do something in R
@@ -79,17 +84,17 @@ Databases are a great way to manage large datasets and handle data filtering, so
 Let's step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
 
 ~~~
-> sqlite3 globi.db
+sqlite3 globi.db
 
-> .mode csv
+.mode csv
 
-> .import Ixodes_data_unique.csv interactions
+.import Ixodes_data_unique.csv interactions
 
-> PRAGMA table_info(interactions);
+PRAGMA table_info(interactions);
 
-> SELECT sourceTaxonGenusName, count(sourceTaxonGenusName) FROM interactions group by sourceTaxonGenusName;
+SELECT sourceTaxonGenusName, count(sourceTaxonGenusName) FROM interactions group by sourceTaxonGenusName;
 
-> SELECT interactionTypeName, count(interactionTypeName) FROM interactions group by interactionTypeName;
+SELECT interactionTypeName, count(interactionTypeName) FROM interactions group by interactionTypeName;
 
-> .exit
+.exit
 ~~~
