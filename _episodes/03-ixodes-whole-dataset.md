@@ -19,9 +19,11 @@ keypoints:
 ### Goals
 -----
 
+<img src="https://www.globalbioticinteractions.org/assets/globi.svg" height="100px" align="left"  />
+
 The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using Shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to Shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
 
-<img src="https://www.globalbioticinteractions.org/assets/globi.svg" height="400px" align="left"  />
+
 
 
 ### Find all of the records in the dataset based on a taxon name
