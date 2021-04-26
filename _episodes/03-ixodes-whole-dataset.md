@@ -77,10 +77,16 @@ wc -l Ixodes_data_unique.csv
 
 Load trimmed dataset into R using R-studio. We will start by stepping through some R code and discuss the results. The [R code](https://github.com/seltmann/interaction-data-workshop) we are using can be downloaded to follow along or you can see an [html preview](https://htmlpreview.github.io/?https://github.com/seltmann/globi-workshop-2021/blob/main/code/globi-example.html) of the code.
 
-### Important columns in the dataset
+### Exercise: Important columns in the dataset
 -----
 
+There are 88 columns in the interactions data file. In this exercise, we will find the columns and pick out which ones are commonly useful in research data.
 
+1. Obtain a list of all of the column names.
+2. How many of them deal with taxon names?
+3. What column/s include the citation information?
+4. What column/s contains the interaction information?
+5. Describe one other important column.
 
 
 ### Import into a sqlite database

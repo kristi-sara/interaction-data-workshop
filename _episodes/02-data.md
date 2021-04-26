@@ -14,15 +14,15 @@ keypoints:
 ---
 
 
-### Goals
+### Getting oriented with GloBI interaction data
 -----
 
-Let's get oriented with the interaction data found on GloBI.
+Let's get oriented with the interaction data found on GloBI. GloBI data products are *interpreted* in order to bring together disparate data sources (literature, observations, collections, etc.). This means that globi data products are opinionated and may be incomplete compared to the original data sources. Original data can be found from the citations and these should still be considered the more detailed building blocks for the entire interaction dataset. 
 
 ### Where to find data
 -----
 
-Navigate to the [GloBI Data Page](https://www.globalbioticinteractions.org/data) page.
+Navigate to the [GloBI Data Products](https://www.globalbioticinteractions.org/data) page and explore the [Original Data Sources](https://globalbioticinteractions.org/sources).
 
 
 ### What is what?
@@ -30,9 +30,9 @@ Navigate to the [GloBI Data Page](https://www.globalbioticinteractions.org/data)
 
 <img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/interaction-data.png" height="1000" align="middle"  />
 
-**stable** versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) GloBI data publication.
+**stable** versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) GloBI data publication. A new version is done about every six months.
 
-**snapshot** are the most recent versions. Thus, this could change daily! Great for exploration and preliminary analysis.
+**snapshot** are the most recent, live data. Thus, this could change daily! Great for exploration and preliminary analysis.
 
 ### Data publication
 ----
