@@ -1,5 +1,5 @@
 ---
-title: "Accessing the Whole Dataset"
+title: "Working with the Whold Dataset"
 teaching: 25
 exercises: 5
 questions:
@@ -27,10 +27,10 @@ The entire or whole interaction dataset on GloBI consists of over 6 million inte
 
 We are interested in finding all of the records in the interactions.csv dataset that deal with *Ixodes* and we are interested in reducing the size of the data so it is easier to manage. One quick way to do this is via the Shell.
 
-1 - How many records are in the GloBI dataset. It is a lot!
+How many records are in the GloBI dataset. It is a lot!
 > wc -l interactions.csv
 
-2 - One of the first things we might want to do is trim the dataset to only those taxa we are interested in analysing. In this case, we will look for all *Ixodes* records. To do so, we will use a simple [shell script](https://github.com/seltmann/interaction-data-workshop), extract all of the rows that contain the word *Ixodes* and create a new file file. This process will help reduce the size of the dataset so we can use R for our analysis. The shell script will take ~ 4 minutes and 12 seconds to complete!
+One of the first things we might want to do is trim the dataset to only those taxa we are interested in analysing. In this case, we will look for all *Ixodes* records. To do so, we will use a simple [shell script](https://github.com/seltmann/interaction-data-workshop), extract all of the rows that contain the word *Ixodes* and create a new file file. This process will help reduce the size of the dataset so we can use R for our analysis. The shell script will take ~ 4 minutes and 12 seconds to complete!
 
 > sh Globi_Ixodes_data.sh
 
@@ -47,8 +47,6 @@ Now lets compare the new datasets.How many records are in the trimmed GloBI data
 Load trimmed dataset into R using R-studio. We will start by stepping through some R code and discuss the results. The [R code](https://github.com/seltmann/interaction-data-workshop) we are using can be downloaded to follow along or you can see an [html preview](https://htmlpreview.github.io/?https://github.com/seltmann/globi-workshop-2021/blob/main/code/globi-example.html) of the code.
 
 
-
-
 ### Import into a sqlite database
 ---------------------------------
 
@@ -56,7 +54,7 @@ Databases are a great way to manage large datasets and handle data filtering, so
 
 > [Introduction to sqlite](https://swcarpentry.github.io/sql-novice-survey/)
 
-Lets step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
+Let's step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
 
 > sqlite3 globi.db
 
