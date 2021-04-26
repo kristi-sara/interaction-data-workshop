@@ -34,7 +34,18 @@ One of the first things we might want to do is trim the dataset to only those ta
 
 > sh Globi_Ixodes_data.sh
 
-![shell code image](shell.png)
+~~~
+echo Creating headers
+head -1 ../data/interactions.csv > ../data/Ixodes_data.csv
+
+echo Finding all Ixodes
+cat ../data/interactions.csv | grep -w "Ixodes" >> ../data/Ixodes_data.csv
+wc -l ../data/Ixodes_data.csv
+
+echo Sorting unique records
+sort -r ../data/Ixodes_data.csv | uniq > ../data/Ixodes_data_unique.csv
+wc -l ../data/Ixodes_data_unique.csv
+~~~
 
 Now lets compare the new datasets.How many records are in the trimmed GloBI datasets? Is there a difference between unique and not?
 > wc -l Ixodes_data.csv
