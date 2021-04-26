@@ -18,6 +18,8 @@ keypoints:
 - "Data sources can support or refute species interaction claims"
 ---
 
+TODO Jorrit
+
 Global Biotic Interactions (GloBI) [continuously indexes](https://globalbioticinteractions.org/process) existing species interaction datasets made available through data sources. These data sources include not only digitized natural history collections (e.g., [Arctos Collections](https://arctosdb.org)), but also data extracted from scientific papers (e.g., [Seltmann et al. 2020 Tick Interaction Database](https://github.com/ParasiteTracker/tick-interaction-database)) and custom data portals (e.g., [Bat Eco-Interactions/BatBase](https://batbase.org)). 
 
 <a href="https://globalbioticinteractions.org/process"><img src="https://www.globalbioticinteractions.org/assets/integration-process.svg"/></a>

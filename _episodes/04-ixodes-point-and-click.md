@@ -20,5 +20,7 @@ keypoints:
 - "GloBI's data products help others build better exploration tools."
 ---
 
+TODO Jorrit
+
 
 demo on getting ixodes data with web uis and excel/google sheets
