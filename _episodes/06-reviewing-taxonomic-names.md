@@ -13,4 +13,6 @@ keypoints:
 - "key point 2"
 ---
 
+{% include episode_gettingstarted.md %}
+
 TODO Jorrit
