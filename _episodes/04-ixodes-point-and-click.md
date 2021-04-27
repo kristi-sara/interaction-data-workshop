@@ -18,6 +18,8 @@ keypoints:
 - "Web tools are dynamic and subject to change"
 ---
 
+{% include episode_gettingstarted.md %}
+
 Global Biotic Interactions offers help to explore available species interaction datasets using basic web tools. These webtools help to answer questions like: "Which organisms do Ixodes interact with?", "Which datasets support describe Ixodes interactions?", and "How can I suggest improvements or point out suspicious data?"
 
 ### Point-and-click Tool 1: Interaction Search 
