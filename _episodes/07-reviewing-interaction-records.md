@@ -26,7 +26,7 @@ Let's collaboratively take notes in the Google Document. The link to the documen
 ### What is a review
 -----
 
-A *review* in GloBI is an output that lets us know how GloBI interpreted or viewed the data being indexed. It is an opportunity to see if we agree with the interpretation or find issues in the data we can correct. It also provides some cool statistics about the number of interaction records indexed from a particular dataset. Reviews are done by dataset only.
+A *review* in GloBI is an output that lets us know how GloBI interpreted or viewed the data being indexed. It is an opportunity to see if you agree with the interpretation or find issues in the data that can be corrected. It also provides some cool statistics about the number of interaction records indexed from a particular dataset. Reviews are done by dataset only. Reviews are useful for people who are submitting data, data curators, or anyone who wants to know more about a particular dataset.
 
 ### Finding the reviews
 -----
@@ -34,6 +34,48 @@ A *review* in GloBI is an output that lets us know how GloBI interpreted or view
 
 [Data for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker)
 
+
+### What is what?
+-----
+~~~
+   _____ _       ____ _____   _____            _                
+  / ____| |     |  _ \_   _| |  __ \          (_)               
+ | |  __| | ___ | |_) || |   | |__) |_____   ___  _____      __ 
+ | | |_ | |/ _ \|  _ < | |   |  _  // _ \ \ / / |/ _ \ \ /\ / / 
+ | |__| | | (_) | |_) || |_  | | \ \  __/\ V /| |  __/\ V  V /  
+  \_____|_|\___/|____/_____| |_|  \_\___| \_/ |_|\___| \_/\_/   
+ | |           |  ____| | |                                     
+ | |__  _   _  | |__  | | |_ ___  _ __                          
+ | '_ \| | | | |  __| | | __/ _ \| '_ \                         
+ | |_) | |_| | | |____| | || (_) | | | |                        
+ |_.__/ \__, | |______|_|\__\___/|_| |_|                        
+         __/ |                                                  
+        |___/                                                   
+
+Review of [globalbioticinteractions/ucsb-izc] started at [2021-04-26T06:04:32+02:00].
+
+Review of [globalbioticinteractions/ucsb-izc] included:
+  - 1440 interaction(s)
+  - 25 note(s)
+  - 1442 info(s)
+
+[globalbioticinteractions/ucsb-izc] has 25 reviewer note(s):
+      7 found unsupported interaction type with name: [Visiting]
+      6 source taxon name missing: using institutionCode/collectionCode/collectionId/catalogNumber/occurrenceId as placeholder
+      3 found unsupported interaction type with name: [Sitting on]
+      3 found unsupported interaction type with name: [Hovering over]
+      2 found unsupported interaction type with name: [Feeding on]
+      1 found unsupported interaction type with name: [Visitng]
+      1 found unsupported interaction type with name: [visiting]
+      1 found unsupported interaction type with name: [Tended by]
+      1 found unsupported interaction type with name: [Next to]
+
+
+If you'd like, you can generate your own review notes by:
+  - installing GloBI's Elton via https://github.com/globalbioticinteractions/elton
+  - running "elton update globalbioticinteractions/ucsb-izc && elton review --type note,summary globalbioticinteractions/ucsb-izc > review.tsv"
+  - inspecting review.tsv
+~~~
 
 ### Exercise: Open a review file in Google Documents
 -----
