@@ -21,7 +21,9 @@ The kinds of data sources indexed by GloBI are pretty diverse: some datasets com
 
 A list of GloBI data sources can be found at [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) <a href="https://globalbioticinteractions.org/sources"><img src="../fig/globi-sources.png" style="width: 50%"></a>.
 
-Exercise 1. Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's **Tick Interaction Database**, and **iNaturalist** observation records. For each, click on the <img src="../fig/globi-badge.png" style="display: inline; height: 1.1em; margin: 0;"> badge to inspect some of their indexed interactions. Describe one interaction for each data source.
+> ## `Exercise 1: Find Data Sources`
+> Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, and **iNaturalist** observation records. For each, click on the <img src="../fig/globi-badge.png" style="display: inline; height: 1.1em; margin: 0;"> badge to inspect some of their indexed interactions. Describe one interaction for each data source.
+{: .challenge}
 
 GloBI builds the search index in the following steps:
 
@@ -32,12 +34,21 @@ GloBI builds the search index in the following steps:
 
 These steps are repeated regularly, often many times a week, to include new additions or other updates. 
 
-Exercise 2. Visit https://globalbioticinteractions.org/process and describe the GloBI indexing process in your own words. 
+> ## `Exercise 2: Data Indexing Steps`
+> Visit [https://globalbioticinteractions.org/process](https://globalbioticinteractions.org/process) and describe the GloBI indexing process in your own words. 
+{: .challenge}
 
 To help better understand how GloBI interprets data sources, automated data reviews are made available for each data source. These dataset specific reviews include lists of review notes and summaries (e.g., review.tsv files), checklists of taxonomic names (e.g., indexed-names.tsv) and indexed interaction data records (e.g., indexed-interactions.tsv). 
 
-Exercise 3. Visit the GloBI's Parasite Tracker project page at [https://globalbioticinteractions.org/parasitetracker](https://globalbioticinteractions.org/parasitetracker#CAS) and locate the **California Academy of Sciences / Entomology Collection**. Click on each of the buttons and describe the function of the "review", "GloBI", "config", "issues" and "names" badges. Also, note how many interactions GloBI found in the California Academy of Sciences Entomology collection.
-
 <a href="https://globalbioticinteractions.org/parasitetracker"><img src="../fig/globi-review.png" style="width: 50%"/></a>
+
+> ## `Exercise 3: Parasite Tracker Data Source: CAS`
+> Visit the GloBI's Parasite Tracker project page at [https://globalbioticinteractions.org/parasitetracker](https://globalbioticinteractions.org/parasitetracker#CAS) and locate the **California Academy of Sciences / Entomology Collection**. 
+>
+> Click on each of the buttons and describe the function of the "review", "GloBI", "config", "issues" and "names" badges. 
+>
+> Also, note how many interactions GloBI found in the California Academy of Sciences Entomology collection.
+{: .challenge}
+
 
 In this lesson episode, you've learned that GloBI is a search index that uses existing data sources. Also, you found the list of GloBI data sources and discovered the search-by-datasource, review and configuration links.
