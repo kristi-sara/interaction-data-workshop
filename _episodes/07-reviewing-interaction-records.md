@@ -113,8 +113,10 @@ This review generated the following resources:
 -----
 Take the review overview of one of the data reviews and import into a google spreadsheet. Here is an example of how this is done.
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
+> Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, and **iNaturalist** observation records. For each, click on the <img src="../fig/globi-badge.png" style="display: inline; height: 1.1em; margin: 0;"> badge to inspect some of their indexed interactions. Describe one interaction for each data source.
+{: .challenge}
 
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
 
 
 ### Interpreting a review file
