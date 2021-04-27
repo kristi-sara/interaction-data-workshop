@@ -13,6 +13,8 @@ keypoints:
 - "GloBI reviews can help data managers better understand their data and how GloBI interprets it."
 ---
 
+<img src="https://lh3.googleusercontent.com/proxy/crTlBtt6fK1dcF2ZuAtbx-DFCSrCgVdSj7FC90KGI6il1Jzpt7xL-Y9tCyT1RSTBLaILgk1bM44c_lwqtCt2ybm3ttMl2dpQA8xCL3E4D91eiHLWHKKMIrD74MK3URz_PxUsQdI0x9tccPyGc--nfHqcW_LoetlPSqngLclwP0S-2GJ" height="300" align="middle"  />
+
 
 ### What is a review
 -----
