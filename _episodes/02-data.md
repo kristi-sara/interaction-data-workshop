@@ -19,6 +19,10 @@ keypoints:
 
 Let's get oriented with the interaction data found on GloBI. GloBI data products are *interpreted* in order to bring together disparate data sources (literature, observations, collections, etc.). This means that globi data products are opinionated and may be incomplete compared to the original data sources. Original data can be found from the citations and these should still be considered the more detailed building blocks for the entire interaction dataset. 
 
+Some of the different sources of data include natural history collection records, observations extracted from the literature, interaction and network datasets, observations from community science programs and other, larger aggregated datasets.
+
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/data-sources.png" height="300" align="middle"  />
+
 ### Where to find data
 -----
 
