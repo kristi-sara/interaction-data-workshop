@@ -35,7 +35,7 @@ A *review* in GloBI is an output that lets us know how GloBI interpreted or view
 [Data for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker)
 
 
-### What is what?
+### What is what? An overview of the data.
 -----
 ~~~
    _____ _       ____ _____   _____            _                
@@ -69,15 +69,44 @@ Review of [globalbioticinteractions/ucsb-izc] included:
       1 found unsupported interaction type with name: [visiting]
       1 found unsupported interaction type with name: [Tended by]
       1 found unsupported interaction type with name: [Next to]
-
-
-If you'd like, you can generate your own review notes by:
-  - installing GloBI's Elton via https://github.com/globalbioticinteractions/elton
-  - running "elton update globalbioticinteractions/ucsb-izc && elton review --type note,summary globalbioticinteractions/ucsb-izc > review.tsv"
-  - inspecting review.tsv
 ~~~
 
-### Exercise: Open a review file in Google Documents
+**1440 interaction(s)** number of interactions indexed by GloBI from this dataset.
+
+**25 note(s)** things that might be interesting to have a look at.
+
+**1442 info(s)** information about biotic interaction indexing process.
+
+**6 source taxon name missing** taxon name field is blank or empty
+
+**unsupported interaction type** no mapping defined from the the description provided by the data source to related terms in the Relations Ontology.
+
+### What is what? I want more information.
+-----
+~~~
+This review generated the following resources:
+  - review.svg (review badge) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.svg
+  - review.tsv.gz (data review) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.tsv.gz
+  - review-sample.tsv (data review sample tab-separated) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review-sample.tsv
+  - review-sample.json (data review sample json) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review-sample.json
+  - review-sample.csv (data review sample csv) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review-sample.csv
+  - indexed-interactions.tsv.gz (indexed interactions) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-interactions.tsv.gz
+  - indexed-interactions.csv.gz (indexed interactions) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-interactions.csv.gz
+  - indexed-interactions-sample.tsv (indexed interactions sample) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-interactions-sample.tsv
+  - indexed-interactions-sample.csv (indexed interactions sample) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-interactions-sample.csv
+  - indexed-names.tsv.gz (indexed names) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-names.tsv.gz
+  - indexed-names.csv.gz (indexed names) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-names.csv.gz
+  - indexed-names-sample.tsv (indexed names sample) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-names-sample.tsv
+  - indexed-names-sample.csv (indexed names sample) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-names-sample.csv
+  - indexed-citations.tsv.gz (indexed citations) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-citations.tsv.gz
+  - indexed-citations.csv.gz (indexed citations) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/indexed-citations.csv.gz
+  - nanopub.ttl.gz (interactions nanopubs) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/nanopub.ttl.gz
+  - nanopub-sample.ttl (interactions nanopub sample) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/nanopub-sample.ttl
+  - review.zip (review archive) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.zip
+~~~
+
+
+## `Exercise 1: Find Data Sources`
 -----
 Take the review overview of one of the data reviews and import into a google spreadsheet. Here is an example of how this is done.
 
