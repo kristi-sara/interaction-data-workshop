@@ -13,8 +13,6 @@ keypoints:
 - "GloBI reviews can help data managers better understand their data and how GloBI interprets it."
 ---
 
-<img src="https://www.pngfind.com/pngs/m/7-79122_under-construction-png-under-construction-clip-art-transparent.png" height="300" align="middle"  />
-
 ### Goals
 ---------------------------------
 
