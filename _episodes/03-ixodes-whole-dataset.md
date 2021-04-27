@@ -84,7 +84,6 @@ We will start by just finding the columns and create a subset of the data to imp
 
 > ## `Exercise 1: What do the columns mean?`
 -----
-
 > There are 88 columns in the interactions data file. In this exercise, we will find the columns and pick out which ones are commonly useful in research data. You can create your own list or use this Google Sheet with the first [500 rows of the Ixodes_data_unique.csv](https://docs.google.com/spreadsheets/d/10C4VnpPZnq5LbaMorVcU8EWTXlI7-dbpg7az-_GKIVI/edit?usp=sharing) file.
 > 1. Obtain a list of all of the column names.
 > 2. How many of them deal with taxon names?
