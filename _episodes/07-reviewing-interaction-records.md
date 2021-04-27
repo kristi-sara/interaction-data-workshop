@@ -111,11 +111,13 @@ This review generated the following resources:
   - review.zip (review archive) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.zip
 ~~~
 
+### Get a glimpse of the review in Google Sheets
+-----
+
 Import a **review-sample** file into Google Sheets
 
 <img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
 
-## `Exercise 1: Find Data Sources`
------
+> ## `Exercise 1: Find Data Sources`
 > Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, or **iNaturalist** observation records. For each, click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;"> badge to open the review page. Once there, find out how many interactions have been indexed for each dataset.
 {: .challenge}
