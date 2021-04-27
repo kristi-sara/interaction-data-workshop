@@ -1,6 +1,6 @@
 ---
 title: "Working with the Whole Dataset"
-teaching: 10
+teaching: 20
 exercises: 10
 questions:
 - "How can I get started with the whole interaction dataset?"
@@ -16,14 +16,18 @@ keypoints:
 
 ---
 
-
 ### Goals
 -----
 
 The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using Shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to Shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
 
+### Getting started
+---------------------------------
+These exercises can be followed along using R and shell, but it is not necessary. If you would like to follow along, please go ahead and open R-studio and your shell window.
 
+At the end of this time, we will regroup and tell the other group about what we did in this breakout group since they could not join us. Who would like to be the person who reports back for the breakout group?
 
+Let's collaboratively take notes in the Google Document. The link to the document is in the chat.
 
 ### Find all of the records in the dataset based on a taxon name
 ---------------------------------
@@ -77,10 +81,12 @@ wc -l Ixodes_data_unique.csv
 
 Load trimmed dataset into R using R-studio. We will start by stepping through some R code and discuss the results. The [R code](https://github.com/seltmann/interaction-data-workshop) we are using can be downloaded to follow along or you can see an [html preview](https://htmlpreview.github.io/?https://github.com/seltmann/globi-workshop-2021/blob/main/code/globi-example.html) of the code.
 
+We will start by just finding the columns and create a subste of the data to import into Google Sheets. Time permitting, we will talk about some of the interesting data issues we are finding in the dataset. 
+
 ### Exercise: Important columns in the dataset
 -----
 
-There are 88 columns in the interactions data file. In this exercise, we will find the columns and pick out which ones are commonly useful in research data.
+There are 88 columns in the interactions data file. In this exercise, we will find the columns and pick out which ones are commonly useful in research data. You can create your own list or use this Google Sheet with the first 500 rows of the Ixodes_data_unique.csv file.
 
 1. Obtain a list of all of the column names.
 2. How many of them deal with taxon names?
