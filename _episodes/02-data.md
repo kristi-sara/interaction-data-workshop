@@ -21,7 +21,7 @@ Let's get oriented with the interaction data found on GloBI. GloBI data products
 
 Some of the different sources of data include natural history collection records, observations extracted from the literature, interaction and network datasets, observations from community science programs and other, larger aggregated datasets.
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/data-sources.png" height="300" align="middle"  />
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/data-sources.png?raw=true" height="300" align="middle" />
 
 ### Where to find data
 -----
