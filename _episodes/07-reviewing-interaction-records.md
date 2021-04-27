@@ -86,6 +86,8 @@ Review of [globalbioticinteractions/ucsb-izc] included:
 
 ### What is what? I want more information.
 -----
+
+GloBI data reviews are packaged in downloadable text files (tab and comma delimited). The **review-sample** files are small enough to quickly view. 
 ~~~
 This review generated the following resources:
   - review.svg (review badge) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.svg
@@ -108,15 +110,18 @@ This review generated the following resources:
   - review.zip (review archive) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.zip
 ~~~
 
+Import a **review-sample** file into Google Sheets
+
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
 
 ## `Exercise 1: Find Data Sources`
 -----
 Take the review overview of one of the data reviews and import into a google spreadsheet. Here is an example of how this is done.
 
-> Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, and **iNaturalist** observation records. For each, click on the <img src="../fig/globi-badge.png" style="display: inline; height: 1.1em; margin: 0;"> badge to inspect some of their indexed interactions. Describe one interaction for each data source.
+> Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, or **iNaturalist** observation records. For each, click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;"> badge to open the review page. Once there, find out how many interactions have been indexed for each dataset.
 {: .challenge}
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
+
 
 
 ### Interpreting a review file
