@@ -20,9 +20,9 @@ keypoints:
 
 Global Biotic Interactions offers help to explore available species interaction datasets using basic web tools. These webtools help to answer questions like: "Which organisms do Ixodes interact with?", "Which datasets support describe Ixodes interactions?", and "How can I suggest improvements or point out suspicious data?"
 
-### Basic tool 1. Interaction Search 
+### Point-and-click Tool 1: Interaction Search 
 
-The web page at [https://globalbioticinteractions.org](https://globalbioticinteractions.org) helps search for specific interactions by (taxonomic) name, interaction type (e.g., eats, parasite of, pollinates), and data source. Similar to general purpose search engines, only a subset of matching results are shown, and more can be requested if desired. The results in include a description of the interacting taxa as well as the authority and data source that is said to support (or refute!) the interaction claim. 
+The web page at [https://globalbioticinteractions.org](https://globalbioticinteractions.org) helps search for specific interactions by (taxonomic) name, interaction type (e.g., eats, parasite of, pollinates), and data source. Similar to general purpose search engines, only a subset of matching results is shown, and more can be requested if desired. The results include a description of the interacting taxa as well as the authority and data source that is said to support (or refute!) the interaction claim. 
 
 #### Exercises:
 
@@ -30,18 +30,18 @@ The web page at [https://globalbioticinteractions.org](https://globalbioticinter
 
 2. Various verbs are used to categorize interactions. List a few of these verbs (aka interactions terms) and describe what you think they mean in your own words. Compare the description with linked web resource. 
 
-3. Describe how you imagine your colleagues using the species interaction search web tool.
+3. Describe how you imagine your colleagues would use the species interaction search web tool. Discuss current limitations and improvement opportunities.
  
-### Basic tool 2. Interaction Browser
+### Point-and-click Tool 2: Interaction Browser
 
 Another search tool, the interaction browser, can be found at [https://globalbioticinteractions.org/browse](https://globalbioticinteractions.org/browse). This tools uses network and bundle diagrams to help visualize a sample of the selected interaction data. Also, a geospatial constraints can be specified to select a specific area of interest. Finally, a sample csv file with supporting interaction data records can be downloaded for review. 
 
 #### Exercises:
 
-4. Select Ixodes interactions involving mammalian hosts and download the related interactions.csv file. Describe each of the columns in your own words. Make a list of all the distinct host and Ixodes names that were reported. 
+4. Select Ixodes interactions involving mammalian hosts and download the related interactions.csv file. Describe each of the columns in your own words. Make a list of all the distinct host and Ixodes names that were included in the csv sample. 
 
-5. Create a screenshot of a resulting interaction diagrams, describe the visual elements and their dynamic behavior (e.g., What happens when you click on a name?, What do the colors mean?)
+5. Create a screenshot of a resulting interaction diagrams, describe the visual elements and their dynamic behavior (e.g., What happens when you click on a name?, What do the colors mean?).
 
-6. Describe why (and how) you'd prefer to share the interaction search results with your colleagues or peers. 
+6. Describe why (and how) you'd prefer to share the interaction search results with your colleagues or peers.
 
 7. Discuss suggestions on how you'd want to incorporate species interactions browsing in other biodiversity data platforms.
