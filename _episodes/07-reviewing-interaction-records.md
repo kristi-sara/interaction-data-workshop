@@ -29,7 +29,7 @@ A *review* in GloBI is an output that lets us know how GloBI interpreted or view
 -----
 Take the review overview of one of the data reviews and import into a google spreadsheet. Here is an example of how this is done.
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="1000" align="middle"  />
+<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
 
 
 
