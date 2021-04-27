@@ -91,7 +91,6 @@ We will start by just finding the columns and create a subset of the data to imp
 > 3. What column/s include the citation information?
 > 4. What column/s contains the interaction information?
 > 5. Describe one other important column.
-
 {: .challenge}
 
 
