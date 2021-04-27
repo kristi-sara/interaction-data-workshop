@@ -15,10 +15,13 @@ keypoints:
 
 <img src="https://www.pngfind.com/pngs/m/7-79122_under-construction-png-under-construction-clip-art-transparent.png" height="300" align="middle"  />
 
-### Getting started
+### Goals
 ---------------------------------
+
 The goal of this lesson is to introduce you to data reviews in GloBI.
 
+### Getting started
+---------------------------------
 At the end of this time we will regroup and report back the other workshop participants about what we did in this breakout group. Who would like to be the person/s who report back for the breakout group?
 
 Let's collaboratively take notes in the Google Document. The link to the document is in the chat.
@@ -30,6 +33,8 @@ A *review* in GloBI is an output that lets us know how GloBI interpreted or view
 
 ### Finding the reviews
 -----
+Remember we wnet 
+
 [Data for all sources](https://www.globalbioticinteractions.org/sources)
 
 [Data for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker)
