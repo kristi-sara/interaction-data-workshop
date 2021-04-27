@@ -88,6 +88,7 @@ Review of [globalbioticinteractions/ucsb-izc] included:
 -----
 
 GloBI data reviews are packaged in downloadable text files (tab and comma delimited). The **review-sample** files are small enough to quickly view. 
+
 ~~~
 This review generated the following resources:
   - review.svg (review badge) https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.svg
@@ -116,13 +117,5 @@ Import a **review-sample** file into Google Sheets
 
 ## `Exercise 1: Find Data Sources`
 -----
-Take the review overview of one of the data reviews and import into a google spreadsheet. Here is an example of how this is done.
-
 > Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, or **iNaturalist** observation records. For each, click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;"> badge to open the review page. Once there, find out how many interactions have been indexed for each dataset.
 {: .challenge}
-
-
-
-
-### Interpreting a review file
------
