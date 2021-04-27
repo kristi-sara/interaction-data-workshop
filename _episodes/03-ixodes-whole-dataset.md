@@ -82,16 +82,17 @@ Load trimmed dataset into R using R-studio. We will start by stepping through so
 
 We will start by just finding the columns and create a subset of the data to import into Google Sheets. Time permitting, we will talk about some of the interesting data issues we are finding in the dataset. 
 
-## `Exercise 1: Find Data Sources`
+## `Exercise 1: What do the columns mean?`
 -----
 
-There are 88 columns in the interactions data file. In this exercise, we will find the columns and pick out which ones are commonly useful in research data. You can create your own list or use this Google Sheet with the first [500 rows of the Ixodes_data_unique.csv](https://docs.google.com/spreadsheets/d/10C4VnpPZnq5LbaMorVcU8EWTXlI7-dbpg7az-_GKIVI/edit?usp=sharing) file.
-
+> There are 88 columns in the interactions data file. In this exercise, we will find the columns and pick out which ones are commonly useful in research data. You can create your own list or use this Google Sheet with the first [500 rows of the Ixodes_data_unique.csv](https://docs.google.com/spreadsheets/d/10C4VnpPZnq5LbaMorVcU8EWTXlI7-dbpg7az-_GKIVI/edit?usp=sharing) file.
 1. Obtain a list of all of the column names.
 2. How many of them deal with taxon names?
 3. What column/s include the citation information?
 4. What column/s contains the interaction information?
 5. Describe one other important column.
+
+{: .challenge}
 
 
 ### Import into a sqlite database
