@@ -1,7 +1,7 @@
 ---
 title: "Exploring Ixodes (tick) Records By Pointing and Clicking"
 teaching: 15
-exercises: 5
+exercises: 15
 questions:
 - "How can I explore indexed Ixodes interaction records?"
 - "When should I use GloBI's webtools?"

@@ -1,7 +1,7 @@
 ---
 title: "Working with Data Sources"
-teaching: 5
-exercises: 2
+teaching: 10
+exercises: 10
 questions:
 - "How does GloBI discover interaction data?"
 - "How does GloBI integrate interaction data?"
@@ -34,9 +34,9 @@ GloBI builds the search index in the following steps:
 
 These steps are repeated regularly, often many times a week, to include new additions or other updates. 
 
-> ## `Exercise 2: Data Indexing Steps`
-> Visit [https://globalbioticinteractions.org/process](https://globalbioticinteractions.org/process) and describe the GloBI indexing process in your own words. 
-{: .challenge}
+> ## `Want to Learn More about Data Indexing Steps?`
+> Visit [https://globalbioticinteractions.org/process](https://globalbioticinteractions.org/process) and learn more about the GloBI indexing process and the tools. 
+{: .callout}
 
 To help better understand how GloBI interprets data sources, automated data reviews are made available for each data source. These dataset specific reviews include lists of review notes and summaries (e.g., review.tsv files), checklists of taxonomic names (e.g., indexed-names.tsv) and indexed interaction data records (e.g., indexed-interactions.tsv). 
 
@@ -52,3 +52,6 @@ To help better understand how GloBI interprets data sources, automated data revi
 
 
 In this lesson episode, you've learned that GloBI is a search index that uses existing data sources. Also, you found the list of GloBI data sources and discovered the search-by-datasource, review and configuration links.
+
+If you'd like to learn more about what a data review is, please jump to [Reviewing Interaction Records](../07-reviewing-interaction-records). If you are interested in how GloBI links to t taxonomic names, please visit lesson episode [Reviewing Taxonomic Names](../06-reviewing-taxonomic-names).
+

@@ -1,7 +1,7 @@
 ---
 title: "Data Sources: Taxonomic Name Review"
-teaching: 15
-exercises: 5
+teaching: 10
+exercises: 10
 questions:
 - "Question 1"
 - "Question 2"
