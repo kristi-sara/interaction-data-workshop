@@ -1,6 +1,6 @@
 ---
 title: "Getting Interaction Data"
-teaching: 5
+teaching: 10
 exercises: 0
 questions:
 - "Where can I download interaction data?"
@@ -10,7 +10,7 @@ objectives:
 - "Understand the columns of the downloaded data"
 keypoints:
 - "GloBI has interaction data that can be accessed as a full dataset"
-- "Better to use the full dataset than the APIs"
+- "Better to use the full or whole dataset than the APIs"
 ---
 
 

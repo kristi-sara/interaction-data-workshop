@@ -12,14 +12,14 @@ objectives:
 - "Learn from each other and ask questions!"
 keypoints:
 - "There is a lot of interaction data available and shell is one helpful tool to reduce the size of the dataset."
-- "Sharing code helps everyone!"
+- "Sharing code helps everyone."
 
 ---
 
 ### Goals
 -----
 
-The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using Shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to Shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
+The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
 
 ### Getting started
 ---------------------------------
