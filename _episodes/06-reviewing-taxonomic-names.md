@@ -37,7 +37,7 @@ These taxonomic name interpretation challenges include, but are not limited to:
 4. Outdates/ disputed names (e.g., taxonomic revisions re-interpret classifications and re-assign names)
 5. Incomplete hierarchies (e.g., data sources provide species name, but no higher order taxonomic ranks)
 
-## GloBI's Taxonomic Name Linking Process
+## Taxonomic Name Links 
 
 GloBI uses existing taxonomic name parsing and resolving tools to help find reasonable links between provided (or verbatim) names from data sources and existing taxonomic name lists. Rather than using a single taxonomic backbone, a variety of name sources is used. These name sources include, but are not limited to: <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/itis.ico" class="inline-image">[Integrated Taxonomic Information System (ITIS)](https://itis.gov), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/worms.png" class="inline-image">[World Register of Marine Species (WoRMS)](https://marinespecies.org), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/ncbi.ico" class="inline-image">[NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/wikidata.ico" class="inline-image">[Wikidata Taxonomy](https://www.wikidata.org/wiki/Wikidata:WikiProject_Taxonomy), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/eol.ico" class="inline-image">[Encyclopedia of Life (EOL) species pages](https://eol.org), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/fishbase.ico" class="inline-image">[FishBase](http://fishbase.org), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/sealifebase.ico" class="inline-image">[SeaLifeBase](https://sealifebase.org), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/inaturalist.ico" class="inline-image">[iNaturalist Taxonomy](https://inaturalist.org/taxa), <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/gbif.png" class="inline-image">[GBIF Backbone Taxonomy](https://doi.org/10.15468/39omei), and <img src="https://www.globalbioticinteractions.org/assets/favicon_cache/plazi-taxon-concept.png" class="inline-image">[Plazi's TreatmentBank](http://plazi.org).
 
@@ -53,8 +53,9 @@ GloBI uses existing taxonomic name parsing and resolving tools to help find reas
 >
 {: .challenge}
 
+## GloBI's Taxonomic Name Linking Process
 
-The steps to index and resolve taxonomic names currently consists of two phases.
+The process to index and resolve taxonomic names currently consists of two phases.
 
 ### Phase 1. Create a Taxonomic Name Map (aka GloBI's Taxon Graph)
 
@@ -82,6 +83,7 @@ If GloBI encountered a name that has not yet been successfully mapped in GloBI's
 So, "no:match" names might include names that contain typos, but may also include names that are valid, but have not yet been included in GloBI's Taxon Graph. 
 
 > ## `Exercise 2. Finding Suspicious Names` 
+>
 > Show three ways you can find suspicious names using GloBI tools.
 >
 {: .challenge}
@@ -92,6 +94,7 @@ So, "no:match" names might include names that contain typos, but may also includ
 
 
 > ## `Exercise 3. Reporting a suspicious name or starting a discussion` 
+>
 > Add add examples on how to reach out to peers to discuss suspicious names or records.
 >
 {: .challenge}

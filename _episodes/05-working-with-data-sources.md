@@ -15,14 +15,29 @@ keypoints:
 - "GloBI provides automated reviews of data sources"
 ---
 
+## Data Sources: GloBI's Building Blocks
+
 Global Biotic Interactions ([https://globalbioticinteractions.org](https://globalbioticinteractions.org), GloBI) relies on existing species interaction datasets, or data sources. These data sources are regularly re-indexed by GloBI to include recent updates. So, rather than a data management system or repository, GloBI is more like a search engine that helps find biotic interaction data in openly available datasets.
 
 The kinds of data sources indexed by GloBI are pretty diverse: some datasets come from professionally managed natural history collections or specialized data portals, whereas others are manually transcribe interaction records from literature, or observation records provided by citizen scientists. 
 
-A list of GloBI data sources can be found at [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) <a href="https://globalbioticinteractions.org/sources"><img src="../fig/globi-sources.png" style="width: 50%"></a>.
+A list of GloBI data sources can be found at [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources). 
+
+<a href="https://globalbioticinteractions.org/sources"><img src="../fig/globi-sources.png" style="width: 50%"></a>
 
 > ## `Exercise 1: Find Data Sources`
-> Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **USNM Ixodes Collection**, Seltmann's > **Tick Interaction Database**, and **iNaturalist** observation records. For each, click on the <img src="../fig/globi-badge.png" style="display: inline; height: 1.1em; margin: 0;"> badge to inspect some of their indexed interactions. Describe one interaction for each data source.
+> Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate:
+>
+>  - the **USNM Ixodes Collection**,
+>
+>  - Seltmann's **Tick Interaction Database**, and 
+>
+>  - **iNaturalist** observation records. 
+>
+> For each data source, click on the <img src="../fig/globi-badge.png" style="display: inline; height: 1.1em; margin: 0;"> badge to explore some of their indexed interactions. 
+>
+> Describe one interaction for each data source in the collaborative notes.
+> 
 {: .challenge}
 
 GloBI builds the search index in the following steps:
@@ -38,7 +53,15 @@ These steps are repeated regularly, often many times a week, to include new addi
 > Visit [https://globalbioticinteractions.org/process](https://globalbioticinteractions.org/process) and learn more about the GloBI indexing process and the tools. 
 {: .callout}
 
-To help better understand how GloBI interprets data sources, automated data reviews are made available for each data source. These dataset specific reviews include lists of review notes and summaries (e.g., review.tsv files), checklists of taxonomic names (e.g., indexed-names.tsv) and indexed interaction data records (e.g., indexed-interactions.tsv). 
+## Data Source Reviews
+
+To help better understand how GloBI interprets data sources, automated data reviews are made available for each data source, or dataset. 
+
+These dataset specific reviews include:
+
+- lists of review notes and summaries (e.g., review.tsv files), 
+- checklists of taxonomic names (e.g., indexed-names.tsv), and
+- indexed interaction data records (e.g., indexed-interactions.tsv). 
 
 <a href="https://globalbioticinteractions.org/parasitetracker"><img src="../fig/globi-review.png" style="width: 50%"/></a>
 
@@ -51,7 +74,13 @@ To help better understand how GloBI interprets data sources, automated data revi
 {: .challenge}
 
 
-In this lesson episode, you've learned that GloBI is a search index that uses existing data sources. Also, you found the list of GloBI data sources and discovered the search-by-datasource, review and configuration links.
+In this lesson episode, you've learned that GloBI is a search index that helps to explore interaction data in existing data sources. 
 
-If you'd like to learn more about what a data review is, please jump to [Reviewing Interaction Records](../07-reviewing-interaction-records). If you are interested in how GloBI links to t taxonomic names, please visit lesson episode [Reviewing Taxonomic Names](../06-reviewing-taxonomic-names).
+Also, you found the list of GloBI data sources and discovered the search-by-datasource, review and configuration links.
+
+## Next Up: Reviewing the Reviews
+
+If you'd like to learn more about what a data review is, please jump to [Reviewing Interaction Records](../07-reviewing-interaction-records). 
+
+If you are specifically interested in how GloBI links to taxonomic names, please visit lesson episode [Reviewing Taxonomic Names](../06-reviewing-taxonomic-names).
 
