@@ -72,15 +72,15 @@ Review of [globalbioticinteractions/ucsb-izc] included:
       1 found unsupported interaction type with name: [Next to]
 ~~~
 
-**1440 interaction(s)** number of interactions indexed by GloBI from this dataset.
+**1440 interaction(s)** is number of interactions indexed by GloBI from this dataset.
 
-**25 note(s)** things that might be interesting to have a look at.
+**25 note(s)** or rows in the dataset that are flagged and might be interesting to have a look at.
 
-**1442 info(s)** information about biotic interaction indexing process.
+**1442 info(s)** or information about biotic interaction indexing process. These are not flagged records, but more like comments or data logging.
 
-**6 source taxon name missing** taxon name field is blank or empty
+**6 source taxon name missing** where the taxon name field is blank or empty
 
-**unsupported interaction type** no mapping defined from the the description provided by the data source to related terms in the Relations Ontology.
+**unsupported interaction type** indicates that no mapping is defined by the data source. Terms are defined by linking to the Relations Ontology.
 
 ### What is what? I want more information.
 -----
