@@ -15,14 +15,13 @@ keypoints:
 
 ### Goals
 ---------------------------------
-
-The goal of this lesson is to introduce you to data reviews in GloBI.
+> The goal of this lesson is to introduce you to data reviews in GloBI.
 
 ### Getting started
 ---------------------------------
-At the end of this time we will regroup and report back the other workshop participants about what we did in this breakout group. Who would like to be the person/s who report back for the breakout group?
+> At the end of this time we will regroup and report back the other workshop participants about what we did in this breakout group. Who would like to be the person/s who report back for the breakout group?
 
-Let's collaboratively take notes in the Google Document. The link to the document is in the chat.
+> Let's collaboratively take notes in the Google Document. The link to the document is in the chat.
 
 ### What is a review
 -----
@@ -83,8 +82,7 @@ Review of [globalbioticinteractions/ucsb-izc] included:
 
 ### What is what? I want more information.
 -----
-
-GloBI data reviews are packaged in downloadable text files (tab and comma delimited). The **review-sample** files are small enough to quickly view. 
+>GloBI data reviews are packaged in downloadable text files (tab and comma delimited). The **review-sample** files are small enough to quickly view. 
 
 ~~~
 This review generated the following resources:
