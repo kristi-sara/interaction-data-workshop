@@ -33,7 +33,7 @@ A *review* in GloBI is an output that lets us know how GloBI interpreted or view
 -----
 Remember we explored in [working with data sources](https://www.globalbioticinteractions.org/interaction-data-workshop/05-working-with-data-sources/index.html) that all GloBI data sources are listed on the [sources](https://www.globalbioticinteractions.org/sources) page. In addition, [providers for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker) have their own webpage.
 
-Let's examine a GloBI data review. Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **ucsb-izc** collection. Click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;">
+Let's examine a GloBI data review. Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **ucsb-izc** collection. Click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;"> badge.
 
 
 ### What is what? An overview of the data.
@@ -111,7 +111,6 @@ This review generated the following resources:
 
 ### Get a glimpse of the review in Google Sheets
 -----
-
 >1 - Import a **review-sample** file into Google Sheets
 ><img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
 >2 - Download the [full review archive](https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.zip)
