@@ -31,11 +31,9 @@ A *review* in GloBI is an output that lets us know how GloBI interpreted or view
 
 ### Finding the reviews
 -----
-Remember we wnet 
+Remember we explored in [working with data sources](https://www.globalbioticinteractions.org/interaction-data-workshop/05-working-with-data-sources/index.html) that all GloBI data sources are listed on the [sources](https://www.globalbioticinteractions.org/sources) page. In addition, [providers for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker) have their own webpage.
 
-[Data for all sources](https://www.globalbioticinteractions.org/sources)
-
-[Data for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker)
+Let's examine a GloBI data review. Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **ucsb-izc** collection. Click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;">
 
 
 ### What is what? An overview of the data.
