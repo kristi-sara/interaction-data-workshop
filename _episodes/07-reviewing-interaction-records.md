@@ -112,13 +112,10 @@ This review generated the following resources:
 ### Get a glimpse of the review in Google Sheets
 -----
 
-1 - Import a **review-sample** file into Google Sheets
-
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
-
-2 - Download the [full review archive](https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.zip)
-
-3 - Import the **indexed-interactions-sample.tsv** into Google Sheets
+>1 - Import a **review-sample** file into Google Sheets
+><img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/import-data.png" height="200" align="middle"  />
+>2 - Download the [full review archive](https://depot.globalbioticinteractions.org/reviews/globalbioticinteractions/ucsb-izc/review.zip)
+>3 - Import the **indexed-interactions-sample.tsv** into Google Sheets
 
 
 > ## `Exercise 1: Find Data Sources`
