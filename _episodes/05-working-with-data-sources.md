@@ -42,12 +42,12 @@ To help better understand how GloBI interprets data sources, automated data revi
 
 <a href="https://globalbioticinteractions.org/parasitetracker"><img src="../fig/globi-review.png" style="width: 50%"/></a>
 
-> ## `Exercise 3: Parasite Tracker Data Source: CAS`
+> ## `Exercise 2: Parasite Tracker Data Source: CAS`
 > Visit the GloBI's Parasite Tracker project page at [https://globalbioticinteractions.org/parasitetracker](https://globalbioticinteractions.org/parasitetracker#CAS) and locate the **California Academy of Sciences / Entomology Collection**. 
 >
 > Click on each of the buttons and describe the function of the "review", "GloBI", "config", "issues" and "names" badges. 
 >
-> Also, note how many interactions GloBI found in the California Academy of Sciences Entomology collection.
+> Also, in the review log, note how many interactions GloBI found in the California Academy of Sciences Entomology collection.
 {: .challenge}
 
 
