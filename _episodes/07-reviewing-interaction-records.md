@@ -26,14 +26,13 @@ Let's collaboratively take notes in the Google Document. The link to the documen
 
 ### What is a review
 -----
-
-A *review* in GloBI is an output that lets us know how GloBI interpreted or viewed the data being indexed. It is an opportunity to see if you agree with the interpretation or find issues in the data that can be corrected. It also provides some cool statistics about the number of interaction records indexed from a particular dataset. Reviews are done by dataset only. Reviews are useful for people who are submitting data, data curators, or anyone who wants to know more about a particular dataset.
+> A *review* in GloBI is an output that lets us know how GloBI interpreted or viewed the data being indexed. It is an opportunity to see if you agree with the interpretation or find issues in the data that can be corrected. It also provides some cool statistics about the number of interaction records indexed from a particular dataset. Reviews are done by dataset only. Reviews are useful for people who are submitting data, data curators, or anyone who wants to know more about a particular dataset.
 
 ### Finding the reviews
 -----
-Remember we explored in [working with data sources](https://www.globalbioticinteractions.org/interaction-data-workshop/05-working-with-data-sources/index.html) that all GloBI data sources are listed on the [sources](https://www.globalbioticinteractions.org/sources) page. In addition, [providers for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker) have their own webpage.
+> Remember we explored in [working with data sources](https://www.globalbioticinteractions.org/interaction-data-workshop/05-working-with-data-sources/index.html) that all GloBI data sources are listed on the [sources](https://www.globalbioticinteractions.org/sources) page. In addition, [providers for Terrestrial Parasite Tracker](https://www.globalbioticinteractions.org/parasitetracker) have their own webpage.
 
-Let's examine a GloBI data review. Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **ucsb-izc** collection. Click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;"> badge.
+> Let's examine a GloBI data review. Visit [https://globalbioticinteractions.org/sources](https://globalbioticinteractions.org/sources) and locate the **ucsb-izc** collection. Click on the <img src="https://depot.globalbioticinteractions.org/reviews/AgentschapPlantentuinMeise/ashForestInteractions/review.svg" style="display: inline; height: 1.1em; margin: 0;"> badge.
 
 
 ### What is what? An overview of the data.
