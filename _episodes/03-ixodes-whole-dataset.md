@@ -94,9 +94,7 @@ wc -l Ixodes_data_unique.csv
 > ## `Import into a sqlite database`
 ---------------------------------
 >Databases are a great way to manage large datasets and handle data filtering, sorting and grouping. Sqlite is commonly used with R as it is easily transferable with the R code. We are not going to learn sqlite today, but there are some great Carpentries tutorials to get you started, including the [Introduction to sqlite](https://swcarpentry.github.io/sql-novice-survey/).
-
 > Let's step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
-
 ~~~
 sqlite3 globi.db
 
