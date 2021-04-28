@@ -36,6 +36,13 @@ keypoints:
 
 **snapshot** are the most recent, live data. Thus, this could change daily! Great for exploration and preliminary analysis.
 
+###  How many records are in the GloBI dataset. It is a lot!
+-----
+
+~~~
+wc -l interactions.csv
+~~~
+
 ### Data publication
 ----
 > For research or other data intensive project, it is suggested to use GloBI’s stable versioned integrated data published via [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) or create a new data publication that contains the data you are using.

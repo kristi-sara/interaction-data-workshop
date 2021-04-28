@@ -18,7 +18,7 @@ keypoints:
 
 ### Goals
 -----
-> The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using shell and R. We are not going to follow along with Shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
+> The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using shell and R. We are not going to follow along with shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
 
 > These exercises can be followed along using R and shell, but it is not necessary. If you would like to follow along, please go ahead and open R-studio and your shell window.
 
@@ -30,7 +30,7 @@ keypoints:
 
 ### Find all of the records in the dataset based on a taxon name
 ---------------------------------
-> We are interested in finding all of the records in the interactions.csv dataset that deal with *Ixodes* and we are interested in reducing the size of the data so it is easier to manage. One quick way to do this is via the Shell.
+> We are interested in finding all of the records in the interactions.csv dataset that deal with *Ixodes* and we are interested in reducing the size of the data so it is easier to manage. One quick way to do this is via the shell.
 
 > How many records are in the GloBI dataset. It is a lot!
 
@@ -86,6 +86,7 @@ wc -l Ixodes_data_unique.csv
 2. How many of them deal with taxon names?
 3. What column/s include the citation information?
 4. What column/s contains the interaction information?
+5. What is the difference between the *source* and *target* columns?
 5. Describe one other important column.
 {: .challenge}
 
@@ -93,9 +94,7 @@ wc -l Ixodes_data_unique.csv
 ### Import into a sqlite database
 ---------------------------------
 >Databases are a great way to manage large datasets and handle data filtering, sorting and grouping. Sqlite is commonly used with R as it is easily transferable with the R code. We are not going to learn sqlite today, but there are some great Carpentries tutorials to get you started, including the [Introduction to sqlite](https://swcarpentry.github.io/sql-novice-survey/).
-
 > Let's step through a few commands to see how easy it is to take a CSV file and create a sqlite database.
-
 ~~~
 sqlite3 globi.db
 
@@ -111,3 +110,4 @@ SELECT interactionTypeName, count(interactionTypeName) FROM interactions group b
 
 .exit
 ~~~
+{: .challenge}
