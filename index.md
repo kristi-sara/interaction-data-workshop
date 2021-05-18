@@ -358,8 +358,9 @@ You can find a recording of the 2021-04-28 event via:
 or online at:
 
 <p><a href="https://zenodo.org/record/4759060/files/tpt-globi-workshop-recording-2021-04-28.mp4">tpt-globi-workshop-recording-2021-04-28.mp4: A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through TPT and GloBI</a>.</p>
-<video controls crossorigin="anonymous" poster="fig/recording-still.png">
-     <source src="https://zenodo.org/record/4759060/files/tpt-globi-workshop-recording-2021-04-28.mp4" type="video/mp4">
+<video controls poster="fig/recording-still.png">
+     <!--source src="https://zenodo.org/record/4759060/files/tpt-globi-workshop-recording-2021-04-28.mp4" type="video/mp4"-->
+     <source src="https://depot.globalbioticinteractions.org/snapshot/tpt-globi-workshop-recording-2021-04-28.mp4" type="video/mp4">
 </video>
 
 
