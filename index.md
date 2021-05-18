@@ -112,7 +112,7 @@ Finally, a big thanks to Erica Krimmel of <img src="fig/idigbio_logo.png" class=
 
 ## Disclaimer
 
-Note that this is not (yet) an official Carpentries workshop, but we are working towards become one.
+Note that this is not (yet) an official Carpentries workshop, but we are working towards becoming one.
 
 {% comment %}
 AUDIENCE
