@@ -357,8 +357,11 @@ You can find a recording of the 2021-04-28 event via:
 
 or online at:
 
-<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/546669878?byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<p><a href="https://vimeo.com/546669878">A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through TPT and GloBI</a> from <a href="https://vimeo.com/idigbio">iDigBio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<video poster="/fig/recording-still.png">
+     <source src="https://zenodo.org/record/4759060/files/tpt-globi-workshop-recording-2021-04-28.mp4" type="video/mp4"></source>
+</video>
+
+<p><a href="https://zenodo.org/record/4759060/files/tpt-globi-workshop-recording-2021-04-28.mp4">tpt-globi-workshop-recording-2021-04-28.mp4: A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through TPT and GloBI</a>.</p>
 
 {% comment %}
 SETUP
