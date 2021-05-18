@@ -357,7 +357,7 @@ You can find a recording of the 2021-04-28 event via:
 
 or online at:
 
-<video poster="/fig/recording-still.png">
+<video poster="fig/recording-still.png">
      <source src="https://zenodo.org/record/4759060/files/tpt-globi-workshop-recording-2021-04-28.mp4" type="video/mp4"></source>
 </video>
 
