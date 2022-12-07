@@ -30,7 +30,7 @@ keypoints:
 ### What is what?
 -----
 
-<img src="fig/interaction-data.png" height="800" align="middle"  />
+<img src="../fig/interaction-data.png" height="800" align="middle"  />
 
 **stable** versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) GloBI data publication. A new version is done about every six months.
 
