@@ -20,7 +20,7 @@ keypoints:
 
 > Some of the different sources of data include natural history collection records, observations extracted from the literature, interaction and network datasets, observations from community science programs and other, larger aggregated datasets.
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/data-sources.png?raw=true" height="300" align="middle" />
+<img src="../fig/data-sources.png" height="300" align="middle" />
 
 ### Where to find data
 -----
@@ -30,7 +30,7 @@ keypoints:
 ### What is what?
 -----
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/interaction-data.png" height="800" align="middle"  />
+<img src="fig/interaction-data.png" height="800" align="middle"  />
 
 **stable** versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) GloBI data publication. A new version is done about every six months.
 
