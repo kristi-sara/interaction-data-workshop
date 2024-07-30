@@ -3,17 +3,17 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Terrestrial Parasite Tracker / Global Biotic Interactions Conference"  # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "SPNHC-TDWG 2024: Room B4"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "SPNHC/TDWG 2024"  # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "Okinawa Convention Center"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "jp"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "29 August, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "5 September, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10:30 am - 12:30 pm JST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2024-08-29      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2024-08-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Kristi Liu"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+startdate: 2024-09-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2024-09-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Kristi Liu", "Katja Seltmann"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: [ ]
 
 # ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
@@ -349,6 +349,7 @@ of code below the Schedule `<h2>` header below with
 
 <hr/>
 
+<!--
 ## Recording
 
 You can find a mp4 recording of the 2021-04-28 event via:
@@ -360,6 +361,7 @@ or streaming online on Vimeo at:
 <iframe src="https://player.vimeo.com/video/546669878" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/546669878">A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through TPT and GloBI</a> from <a href="https://vimeo.com/idigbio">iDigBio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+-->
 
 {% comment %}
 SETUP
