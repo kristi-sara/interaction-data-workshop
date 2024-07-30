@@ -92,7 +92,7 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-Join us at SPNHC/TDWG 2024 for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>."
+Join us at [SPNHC/TDWG 2024](https://www.tdwg.org/conferences/2024/) for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>."
 
 During this two-hour long, participatory workshop collection managers, researchers, or data providers will use GloBI for data management and information retrieval. Our group exploration into the data will cover the data origins and data integration process and data products.
 
