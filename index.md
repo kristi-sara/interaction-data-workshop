@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Terrestrial Parasite Tracker / Global Biotic Interactions Conference"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "Terrestrial Parasite Tracker / Global Biotic Interactions Conference"  # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "SPNHC-TDWG 2024: Room B4"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "jp"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
@@ -92,7 +92,7 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-Join us at SPNHC/TDWG 2024 for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>." This workshop is facilitated by <a href="https://idigbio.org">Integrated Digitized Biocollections (iDigBio)</a>. For more information see <a href="https://www.idigbio.org/content/practical-exploration-biotic-interaction-data-management-and-information-retrieval-through">iDigBio's workshop wiki</a>.
+Join us at SPNHC/TDWG 2024 for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>."
 
 During this two-hour long, participatory workshop collection managers, researchers, or data providers will use GloBI for data management and information retrieval. Our group exploration into the data will cover the data origins and data integration process and data products.
 
