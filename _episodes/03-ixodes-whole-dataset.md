@@ -17,13 +17,11 @@ keypoints:
 ---
 
 ### Goals
------
 The entire or whole interaction dataset on GloBI consists of over 6 million interaction records. There are many ways to approach a large dataset and this exercise is to demonstrate one example using shell and R. We are not going to follow along with shell and introduction to R tutorials in this workshop, but Carpentries has a few nice ones to get you started, including [Introduction to shell](https://swcarpentry.github.io/shell-novice/) and [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html).
 
 These exercises can be followed along using R and shell, but it is not necessary. If you would like to follow along, please go ahead and open R-studio and your shell window.
 
 ### Getting started
----------------------------------
 At the end of this time we will regroup and report back the other workshop participants about what we did in this breakout group. Who would like to be the person/s who report back for the breakout group?
 
 Let's collaboratively take notes in the Google Document. The link to the document is in the chat.
