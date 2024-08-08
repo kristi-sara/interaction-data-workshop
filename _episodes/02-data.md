@@ -16,15 +16,15 @@ keypoints:
 
 ### Getting oriented with GloBI interaction data
 -----
-> Let's get oriented with the interaction data found on GloBI. GloBI data products are *interpreted* in order to bring together disparate data sources (literature, observations, collections, etc.). This means that GloBI data products are opinionated and may be incomplete compared to the original data sources. Original data can be found from the citations and these should still be considered the detailed building blocks for the entire interaction dataset. 
+Let's get oriented with the interaction data found on GloBI. GloBI data products are *interpreted* in order to bring together disparate data sources (literature, observations, collections, etc.). This means that GloBI data products are opinionated and may be incomplete compared to the original data sources. Original data can be found from the citations and these should still be considered the detailed building blocks for the entire interaction dataset. 
 
-> Some of the different sources of data include natural history collection records, observations extracted from the literature, interaction and network datasets, observations from community science programs and other, larger aggregated datasets.
+Some of the different sources of data include natural history collection records, observations extracted from the literature, interaction and network datasets, observations from community science programs and other, larger aggregated datasets.
 
 <img src="../fig/data-sources.png" height="300" align="middle" />
 
 ### Where to find data
 -----
-> Navigate to the [GloBI Data Products](https://www.globalbioticinteractions.org/data) page and explore the [Original Data Sources](https://globalbioticinteractions.org/sources).
+Navigate to the [GloBI Data Products](https://www.globalbioticinteractions.org/data) page and explore the [Original Data Sources](https://globalbioticinteractions.org/sources).
 
 
 ### What is what?
@@ -45,16 +45,17 @@ wc -l interactions.csv
 
 ### Data publication
 ----
-> For research or other data intensive project, it is suggested to use GloBI’s stable versioned integrated data published via [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) or create a new data publication that contains the data you are using.
+For research or other data intensive project, it is suggested to use GloBI’s stable versioned integrated data published via [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) or create a new data publication that contains the data you are using.
 
 
 ### Other ways of accessing GloBI data
 -----
-> Exploratory, interactive queries can be executed through SPARQL and Cypher endpoints, GloBI Search/Browse pages, or by using the REST-y GloBI Web API. For those that use R, rglobi is available to explore interaction data. rglobi can also be used to execute Cypher queries. However, it is best to consider these as methods for exploring data rather than data access points. **If you are doing research, download the full dataset and create a version of it**.
+Exploratory, interactive queries can be executed through SPARQL and Cypher endpoints, GloBI Search/Browse pages, or by using the REST-y GloBI Web API. For those that use R, rglobi is available to explore interaction data. rglobi can also be used to execute Cypher queries. However, it is best to consider these as methods for exploring data rather than data access points. **If you are doing research, download the full dataset and create a version of it**.
 
-> ## `Discussion: Why is it important to version the GloBI data in research?`
-> Take a moment to discuss as a group why it is important to version, publish, or archive a copy of the GloBI dataset you use for research. What are some ways to archive datasets?
-{: .discussion}
+> ## Discussion: Why is it important to version the GloBI data in research?
+> Take a moment to discuss as a group why it is important to version, publish, or archive a copy of the GloBI dataset you
+> use for research. What are some ways to archive datasets?
+> {: .discussion}
 
 ## Next Up: Reviewing the Reviews
 
