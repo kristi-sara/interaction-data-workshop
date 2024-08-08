@@ -16,7 +16,7 @@ keypoints:
 - "GloBI taxonomic name linking process is likely imperfect and subjective"
 ---
 
-{% include episode_gettingstarted.md %}
+<!-- {% include episode_gettingstarted.md %} -->
 
 ## Goal
 
