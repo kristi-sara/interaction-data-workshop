@@ -57,7 +57,7 @@ sort -r ../data/Ixodes_data.csv | uniq > ../data/Ixodes_data_unique.csv
 wc -l ../data/Ixodes_data_unique.csv
 ~~~
 
-If you want to find several taxa and combine the datasets, you could create files from multiple taxa and combine the output together into a single dataset using **cat**. An example of this can be found [here](https://github.com/lee-michellej/globi_tritrophic_networks/blob/master/Code/Globi_bee_data.sh). This example takes all files of the files in the Data folder that contanin the pattern **unique.tsv** and creates a new file called *all_data.txt**._
+If you want to find several taxa and combine the datasets, you could create files from multiple taxa and combine the output together into a single dataset using **cat**. An example of this can be found [here](https://github.com/lee-michellej/globi_msomAndsciChecklists/blob/master/Code/Old/Globi_bee_data.sh). This example takes all files of the files in the Data folder that contanin the pattern **unique.tsv** and creates a new file called *all_data.txt**._
 
 ~~~
 cat ../Data/*unique.tsv >> ../Data/all_data.txt
