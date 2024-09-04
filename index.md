@@ -110,7 +110,8 @@ This workshop is supported by the <img src="fig/parasite_tracker_logo.png" class
 
 Finally, a big thanks to Katja Seltmann from [CCBER](https://ccber.ucsb.edu/) and Jorrit Poelen for helping to organize this workshop, the [Carpentries](https://carpentries.org) for providing excellent workshop/lesson templates, and to all the <img src="fig/globi_logo.png" class="inline-image">[GloBI partners](https://globalbioticinteractions.org/about#partners) for their support.
 
-<a href="https://parasitetracker.org"><img src="fig/parasite_tracker_logo.png" class="inline-image" style="height: 5em;"></a> <a href="https://nsf.gov"><img src="fig/nsf_logo.png" class="inline-image" style="height: 6em;"></a> <a href="https://www.idigbio.org/"><img src="fig/idigbio_logo.png" class="inline-image" style="height: 4em;"></a> <a href="https://globalbioticinteractions.org"><img src="fig/globi_logo.png" class="inline-image" style="height: 5em;"></a> 
+<a href="https://parasitetracker.org"><img src="fig/parasite_tracker_logo.png" class="inline-image" style="height: 5em;"></a> <a href="https://nsf.gov"><img src="fig/nsf_logo.png" class="inline-image" style="height: 6em;"></a> <a href="https://www.idigbio.org/"><img src="fig/idigbio_logo.png" class="inline-image" style="height: 4em;"></a> <a href="https://globalbioticinteractions.org"><img src="fig/globi_logo.png" class="inline-image" style="height: 5em;"> <a href="https://www.tdwg.org/conferences/2024/"><img src="fig/spnhc-tdwg-2024-logo.png" class = "inline-image" style="height: 6em;"></a>
+
 
 
 ## Disclaimer
